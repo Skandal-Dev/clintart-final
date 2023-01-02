@@ -2,6 +2,6 @@
 // easier imports
 // if the number of components is too much, then ignore this way
 
-export { default as Home } from './Home/Home'
-export { default as Features } from './Features/Features'
-export { default as Pricing } from './Pricing/Pricing'
+export { default as View } from './Editor/view'
+export { default as Editor } from './Editor/Editor'
+export { default as Fanpage } from './Fanpage/Page'

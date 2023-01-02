@@ -1,44 +1,18 @@
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0;
+body{
+  background-image: url('bg.jpg');
 }
 
-.App {
-  padding: 3em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: azure;
+
+#donate-button-container{
+right: 5px;
+bottom: 15px;
+margin: auto 10px;
+  filter: opacity(0.5);
+  position: fixed;
+}
+
+.stroke{
+  text-shadow: -1px -1px 0 #2a9e63,1px -1px 0 #efc2e4a3,-1px 1px 0 #8938d3,1px 1px 0 #f5bb0e,2px 2px 1px #633505 !important;
+
   text-align: center;
-  margin: auto;
-}
-
-.data-list {
-  min-width: 300px;
-  /* max-width: 600px; */
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-/* .navbar-toggler-icon {
-} */
-
-.box-1,
-.box-3,
-.box-3 {
-  width: 75%;
-  height: 2px;
-  margin: 20% auto;
-  background-color: black;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
 }

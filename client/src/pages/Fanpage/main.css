@@ -1,0 +1,204 @@
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background: url('https://s.acdn.ur-img.com/img/v3/profile/hud/hud-default.png');
+  width: 514px;
+  height: 228px;
+  position: sticky;
+  margin: auto;
+  top: 0px;
+  z-index: 999;
+  font-size: 2.7rem !important;
+}
+.cards-note{
+  text-align: center;
+transform: scale(1.5);
+margin-top: 10px;
+}
+
+.cards-note img{
+  transition: all 0.5s
+}
+
+.cards-note img:hover{
+  cursor: pointer;
+  transform: scale(1.7)
+}
+img{
+      max-width: inherit !important ;
+}
+
+#fanpage .App{
+  margin-top: -20px !important  ;
+}
+
+.fileContainer{
+  background: #0000 !important;
+}
+
+
+.spe-box{
+  border-radius: 0.75rem;
+outline: 4px solid #000;
+border: 4px solid #2b2f35;
+background-color: #16181b;
+filter: drop-shadow(5px 5px 0 #0000004c);
+color: #fff;
+display: flex;
+padding: 1rem;
+margin: 1.25rem;
+flex-wrap: wrap;
+justify-content: space-evenly;
+justify-items: center;
+border-radius: 0.5rem;
+border-width: 4px;
+gap: 1.25rem;
+background: #16181b;
+}
+
+h4{
+    display: block;
+    padding: 19px;
+    width: fit-content;
+    margin: auto;
+    background: #271a46;
+    border-radius: 9px;
+    border: 2px solid #2c2144;
+    position: relative;
+    top: -125px;
+    z-index: -1;
+    font-size: 20px;
+}
+
+
+
+
+
+.l-height-5{
+  margin-bottom: 20px !important;
+}
+
+
+.card-bottom {
+  width: 150px !important;
+  height: 89px !important;
+  position: absolute !important;
+  bottom: 7px !important;
+  left: 12px !important;
+  z-index: 4 !important;
+}
+
+
+.card-top {
+	width: 159px !important;
+	height: 37px !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: 7px !important;
+}
+
+
+.card-progress {
+  background: none !important;
+  width: 87px !important;
+  height: 19px !important;
+  position: relative !important;
+  top: 12px !important;
+  left: 29px !important;
+  overflow: visible !important;
+}
+
+.card-power {
+	top: 21px !important;
+}
+
+.card-damage {
+	top: 62px !important;
+}
+
+.card-ability {
+	width: 100px !important;
+	height: 26px !important;
+	margin: 18px 0 0 auto !important;
+	font-size: .6rem !important;
+	line-height: 1.2 !important;
+	text-shadow: 0 0 1px #000 !important;
+}
+
+.card-bonus {
+	width: 100px !important;
+	height: 26px !important;
+	margin: 0 0 0 auto !important;
+	font-size: .6rem !important;
+	line-height: 1.2 !important;
+	text-shadow: 0 0 1px #000 !important;
+}
+
+.card-stars {
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 3px !important;
+  text-align: center !important;
+  position: absolute !important;
+  top: 0 !important;
+  z-index: 1 !important;
+}
+
+.card-progress .progress-bar {
+  line-height: 8px !important;
+  background-color: transparent !important;
+
+  background-size: auto 100% !important;
+}
+
+
+
+.ur-card {
+  border-radius: 14px !important;
+  width: 168px !important;
+  height: 237px !important;
+  color: #fff !important;
+  text-align: left !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/***************************/
+.ur-card {
+  border-radius: 14px !important;
+  color: #fff !important;
+  height: 237px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  text-align: left !important;
+  width: 168px !important;
+}
+
+
+.card-back-l, .card-m {
+  background-size: contain;
+}
+.ur-card {
+  border-radius: 14px;
+  width: 168px;
+  height: 237px;
+  color: #fff;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+.ur-card {
+  transition: box-shadow .2s ease;
+  transform: translateZ(0);
+  z-index: 10;
+  outline: 1px solid transparent;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+/***************************/

@@ -8,19 +8,18 @@ import { BrowserRouter, Redirect, Route, Routes } from "react-router-dom";
 // import Home from "./pages/Home/Home";
 // import Features from "./pages/Features/Features";
 // import Pricing from "./pages/Pricing/Pricing";
-import { Home, Features, Pricing } from './pages'
+import { Fanpage, Editor, View } from './pages'
 
 const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/features" element={<Features />}/>
-          <Route path="/pricing"element={<Pricing />}/>
-        </Routes>
-      </BrowserRouter>
-    </>
+
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<View />} />
+                <Route path="/fanpage" element={<Fanpage />}/>
+              </Routes>
+            </BrowserRouter>
+            
   );
 };
 
